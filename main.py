@@ -18,7 +18,7 @@ data = StringVar(value='ВСЕ')
 for_cod = ""
 test = True
 
-file_path = "C:/Users/Maria/Documents/Gesticule_word.xlsx"
+file_path = "Gesticule_word.xlsx"
 df = pd.read_excel(file_path)
 
 book = {'ВСЕ': []}
